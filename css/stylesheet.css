@@ -1,0 +1,65 @@
+/* Variables */
+:root {
+    --light-blue: #d4d0de;
+    --dark-blue: #004e64;
+    --white: #fcfcfc;
+    --green: #25a18e;
+}
+
+/* HTML */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    background-color: var(--off-white);
+    border-top: 12px solid var(--green);
+}
+
+p {
+    color:var(--dark-blue);
+    margin: 15px 0;
+    text-align: center;
+}
+
+a {
+    color: var(--green);
+}
+
+/* Layout */
+.content-wrapper {
+    width: 700px;
+    margin: 50px auto;
+}
+
+/* Avatar */
+.avatar {
+    display: block;
+    margin: 50px auto;
+    border-radius: 128px;
+}
+
+/* Links */
+ul.links {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul.links li {
+    margin: 0 10px;
+}
+
+ul.links span {
+    font-size: 0;
+    line-height: 0;
+}
