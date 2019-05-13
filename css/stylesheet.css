@@ -7,19 +7,19 @@
 }
 
 /* HTML */
+html {
+    box-sizing: border-box;
+}
+
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 1.2rem;
-}
-
 body {
     font-family: 'PT Serif', serif;
+    font-size: 1.2rem;
     background-color: var(--off-white);
     border-top: 12px solid var(--green);
 }
@@ -62,4 +62,25 @@ ul.links li {
 ul.links span {
     font-size: 0;
     line-height: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+
+    p {
+        line-height: 150%;
+    }
+
+    .content-wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .avatar {
+        max-width: 100%;
+        width: 128px;
+    }
 }
