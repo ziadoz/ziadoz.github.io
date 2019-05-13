@@ -1,2 +1,2 @@
-# Jamie York
-This is my personal homepage.
+# Website
+This is my website.
