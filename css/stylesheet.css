@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font-family: 'PT Serif', serif;
+    font-family: Georgia, serif;
     font-size: 1.2rem;
     background-color: var(--off-white);
     border-top: 12px solid var(--green);
